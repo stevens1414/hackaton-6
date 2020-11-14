@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+color
+*/
+/*
+border
+*/
+html {
+  font-size: 62.5%;
+  font-family: arial;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+main {
+  width: 940px;
+  margin: auto;
+  font-family: arial;
+}
+
+/*cabecera*/
+header .circle {
+  width: 32px;
+  height: 32px;
+  background-color: #356EAD;
+  border-radius: 100%;
+}
+
+header .logo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 12px;
+  border: solid 2px #316099;
+}
+
+header .logo p {
+  font-size: 2.4rem;
+  color: #356EAD;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+}
+
+header .cabecera {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  font-size: 2.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .cabecera ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .cabecera a {
+  color: #356EAD;
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+}
+
+/*banner*/
+.banner img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.banner .blog {
+  width: 50%;
+  left: 25%;
+  top: 15%;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.banner .blog h1 {
+  color: white;
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.banner .blog p {
+  font-size: 1.8rem;
+}
+
+/*search*/
+.search {
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.search .box {
+  font-size: 2.4rem;
+  background-color: lightgray;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  color: #949494;
+}
+
+.search .icon {
+  color: #949494;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/*
+articulo 
+*/
+.articulo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #5a98d0;
+  font-weight: 500;
+}
+
+.articulo .popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.articulo .element h3 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0px 25px 15px 0px;
+  color: #356EAD;
+}
+
+.articulo .element p {
+  line-height: 1.3;
+  font-size: 1.8rem;
+  color: #616161;
+  margin: 0px 25px 15px 0px;
+}
+
+.articulo .contac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 25px 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.articulo .contac h4 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #5a98d0;
+}
+
+.articulo .contac p {
+  font-size: 1.8rem;
+  font-size: 1.8rem;
+}
+
+.articulo .contac .icon2 {
+  color: #356EAD;
+  margin-left: 20px;
+}
+
+.articulo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.articulo2 img {
+  margin-bottom: 20px;
+}
+
+.popular2 {
+  width: 33.3333%;
+}
+
+.element2 h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0px 25px 15px 0px;
+  color: #1F3F68;
+}
+
+.element2 p {
+  line-height: 1.3;
+  margin: 0px 25px 15px 0px;
+  color: #616161;
+  font-size: 1.8rem;
+}
+
+.tex h2 {
+  font-weight: 500;
+  float: right;
+  font-size: 1.8rem;
+  margin: 40px 0px 40px 0px;
+}
+
+.line {
+  margin-bottom: 30px;
+  border: solid 1px #949494;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
