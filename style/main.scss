@@ -96,22 +96,24 @@ header{
 /*search*/
 
 .search{
+    width: 80%;
     margin: auto;
-    margin-bottom: 40px;
-    .box{
-        font-size: $s-2;
-        background-color: rgb(211, 211, 211);
-        border-radius: $border-m;
-        display: flex;
-        padding: 15px;
-        color: rgb(148, 148, 148);
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    color: #1F3F68;
+    font-size: 1.6rem;
+    padding: 17px;
+    margin: 40px 0;
+
+    input{
+        background-color: transparent;
+        width: 80%;
+        border: 1px solid #F4F4F4;
+        padding-left: 20px;
+        
     }
-    .icon{
-        color: rgb(148, 148, 148);
-    margin-right: 15px;
-    cursor: pointer;
     }
-}
+
 
 /*
 articulo 
