@@ -1,0 +1,91 @@
+/*
+articulo 
+*/
+.articulo{
+    h2{
+        font-size: $s-2;
+        margin-bottom: 25px;
+        color: $color-branding-two;
+        font-weight: 500;
+    }
+    .popular{
+        display: flex;
+        margin-bottom: 25px;
+    }
+    .element{
+        h3{
+            font-size: $s-1;
+            font-weight: bold;
+            margin: 0px 25px 15px 0px;
+            color: $color-branding-one;
+        }
+        p{
+            line-height: 1.3;
+            font-size: $s-3;
+            color: #616161;
+            margin: 0px 25px 15px 0px;
+        }
+
+    }
+
+    .contac{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 25px 0px 0px;
+        align-items: center;
+    }
+    .contac{
+       
+       
+        h4{
+            margin-bottom:15px ;
+            font-size: $s-4;
+            color: $color-branding-two;
+        }
+        p{
+            font-size: $s-3;
+            font-size: $s-3;
+
+        }
+        .icon2{
+            color: $color-branding-one;
+            margin-left: 20px;
+        }
+        
+    }
+}
+
+.articulo2{
+    display: flex;
+   
+
+    img{
+        margin-bottom: 20px;
+    }
+}
+.popular2{
+    width: 33.3333%;
+}
+.element2{
+    h3{
+        font-size: $s-2;
+        font-weight: bold;
+    margin: 0px 25px 15px 0px ;
+    color: $color-branding-three;
+    }
+    p{
+        line-height: 1.3;
+        margin: 0px 25px 15px 0px ;
+        color: #616161;
+        font-size: $s-3;
+    }
+}
+
+.all-article{
+    h2{
+        font-size: $s-2;
+        font-weight: 600;
+        color: $color-branding-one;
+        margin-bottom: 30px;
+    }
+}
