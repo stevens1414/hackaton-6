@@ -15,10 +15,27 @@ color
 
 $color-branding-one:#356EAD;
 $color-branding-two:#5a98d0;
-$color-branding-three:#1F3F68;
+$color-branding-three:#316099;
 
-$opacity: rgba(0, 0, 0, 0.4);
+$opacity: 0.5;
 $color-base:#000;
+$color-liht:#fff;
+
+/*definicion de colores*/
+
+.color-liht{
+    color:$color-liht
+}
+.color-primary{
+   color: $color-branding-one;
+}
+.color-secon{
+   color: $color-branding-two;
+}
+.opacity{
+    opacity:$opacity ;
+}
+
 
 /*
 border
@@ -26,4 +43,11 @@ border
 $border-r:100%;
 $border-m:5px;
 $border-s:solid 2px #316099;
+
+/*
+margin
+*/
+$margin-left-2:20px;
+$margin-right-2:20px;
+
 

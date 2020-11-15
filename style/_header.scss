@@ -57,7 +57,7 @@ header{
     .blog{
         width:50% ;
         left: 25%;
-        top: 15%;
+        top: 18%;
         position: absolute;
         text-align: center;
         color: white;
@@ -68,6 +68,7 @@ header{
         }
         p{
             font-size: $s-3;
+            color: white;
         }
     }
 }
