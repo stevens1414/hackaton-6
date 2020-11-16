@@ -1,32 +1,11 @@
-@import'reset';
-@import'variables';
-@import'globales';
-@import'header';
-@import'articulos';
-@import'footer';
-       
-/*search*/
+@import'atoms/reset';
+@import'setting/variables';
+@import'helper/globales';
+@import'organismos/header';
+@import'organismos/articulos';
+@import'organismos/footer';
+@import 'atoms/search';    
 
-.search{
-    max-width: 940px;;
-    margin: auto;
-    border-radius: 5px;
-    background-color: #F4F4F4;
-    color: #1F3F68;
-    font-size: 1.6rem;
-    padding: 17px;
-    
-
-    input{
-        outline: none;
-        background-color: transparent;
-        width: 90%;
-        margin: 0px 33px;
-        border: 1px solid #F4F4F4;
-       
-        
-    }
-    }
 
 .tex{
     h2{
