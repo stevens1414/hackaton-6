@@ -673,6 +673,28 @@ footer {
   }
 }
 
+@media (max-width: 424px) {
+  .interesed {
+    display: block;
+    margin-bottom: 35px;
+  }
+  .interesed div {
+    width: 100%;
+  }
+  .interesed div h2 {
+    font-size: 3.2rem;
+    line-height: 1;
+    width: 90%;
+  }
+  .interesed div p {
+    font-size: 1.8rem;
+  }
+  .interesed .talk button {
+    width: 90%;
+    height: 56px;
+  }
+}
+
 /*search*/
 .search {
   max-width: 940px;

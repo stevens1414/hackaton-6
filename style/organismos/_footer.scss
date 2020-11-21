@@ -167,3 +167,29 @@ h2{
         }
     }
 }
+
+@media(max-width: 424px){
+    .interesed{
+        display: block;
+        margin-bottom: 35px;
+        div{
+            width: 100%;
+            h2{
+                font-size: $s-1;
+                line-height: 1;
+                width: 90%;
+
+            }
+            p{
+                font-size: $s-3;
+            }
+        }
+
+        .talk{
+            button{
+                width: 90%;
+                height: 56px;
+            } 
+        }
+    }
+}
