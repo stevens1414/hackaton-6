@@ -199,8 +199,8 @@ articulo
 }
 
 
-/*responsive a 700px */
-@media(max-width: 700px){
+/*responsive a 800px */
+@media(max-width: 800px){
     .popular{
         flex-direction: column-reverse;
         div{
@@ -221,6 +221,11 @@ articulo
        }
     }
 
+    
+    
+}
+
+@media(max-width: 700px){
     .articulo2{
         flex-wrap: wrap;
         width: 100%;
@@ -231,9 +236,8 @@ articulo
             padding-right: 0px;
         }
     }
-    
-}
 
+}
 @media(max-width: 600px){
  
     .all-article{
