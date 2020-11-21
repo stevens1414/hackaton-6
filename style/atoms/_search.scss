@@ -13,10 +13,17 @@
     input{
         outline: none;
         background-color: transparent;
-        width: 90%;
+       
+        width: 70%;
         margin: 0px 33px;
         border: 1px solid #F4F4F4;
        
         
     }
+    }
+
+    @media (max-width: 900px){
+        .search{
+            max-width: 89%;
+        }
     }

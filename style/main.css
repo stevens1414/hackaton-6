@@ -172,7 +172,7 @@ header .cabecera a {
 .banner .blog {
   width: 50%;
   left: 25%;
-  top: 18%;
+  top: 130px;
   position: absolute;
   text-align: center;
   color: white;
@@ -187,6 +187,41 @@ header .cabecera a {
 .banner .blog p {
   font-size: 1.8rem;
   color: white;
+}
+
+@media (max-width: 900px) {
+  header .cabecera {
+    width: 90%;
+    font-size: 1.8rem;
+    padding: 40px 20px;
+  }
+  header .banner .blog {
+    top: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  header .cabecera a {
+    font-size: 2.4rem;
+    margin-left: 15px;
+  }
+  .banner .blog {
+    width: 70%;
+    left: 12%;
+  }
+  .banner .blog h1 {
+    font-size: 2.4rem;
+  }
+  .banner .blog p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 424px) {
+  header .cabecera a {
+    font-size: 1.8rem;
+    margin-left: 10px;
+  }
 }
 
 /*
@@ -302,6 +337,10 @@ articulo
   margin: 10px 20px;
 }
 
+.info div .contac div h4 {
+  margin: 10px 20px;
+}
+
 .contac {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,6 +394,116 @@ articulo
 
 .conten__arrow .arrow .icon2 {
   color: #5a98d0;
+}
+
+/*responsive a 900px */
+@media (max-width: 900px) {
+  .articulo {
+    width: 95%;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.articulo2 {
+  width: 100%;
+}
+
+.articulo2 .popular2 {
+  padding-right: 10px;
+}
+
+.articulo2 .popular2 .element2 img {
+  width: 100%;
+}
+
+.all-article {
+  width: 95%;
+}
+
+.conten__arrow {
+  margin-bottom: 120px;
+}
+
+.media {
+  display: none;
+}
+
+/*responsive a 700px */
+@media (max-width: 700px) {
+  .popular {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .popular div img {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px;
+  }
+  .popular .element h3 {
+    font-size: 2.4rem;
+  }
+  .popular .element p {
+    font-size: 1.8rem;
+  }
+  .articulo2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .articulo2 .popular2 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .all-article .media p {
+    display: block;
+    color: #5a98d0;
+    float: right;
+    right: 20px;
+    margin-bottom: 40px;
+  }
+  .all-article .none {
+    display: none;
+  }
+  .all-article .info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .all-article .info img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .all-article .info div h3 {
+    margin: 15px 0px;
+  }
+  .all-article .info div p {
+    margin: 0px;
+  }
+  .all-article .info div .contac div h4 {
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 424px) {
+  .popular .element h3 {
+    font-size: 2.4rem;
+  }
+  .popular .element p {
+    font-size: 1.4rem;
+  }
+  .all-article .none {
+    display: none;
+  }
 }
 
 footer {
@@ -504,6 +653,26 @@ footer {
   font-weight: lighter;
 }
 
+/*responsive a 900px */
+@media (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+  .container .block {
+    display: block;
+  }
+  .container .list-footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .list-footer .list3 {
+    width: 100%;
+  }
+  .container .list-footer .list1 {
+    margin-right: 20px;
+  }
+}
+
 /*search*/
 .search {
   max-width: 940px;
@@ -518,9 +687,15 @@ footer {
 .search input {
   outline: none;
   background-color: transparent;
-  width: 90%;
+  width: 70%;
   margin: 0px 33px;
   border: 1px solid #F4F4F4;
+}
+
+@media (max-width: 900px) {
+  .search {
+    max-width: 89%;
+  }
 }
 
 .tex h2 {

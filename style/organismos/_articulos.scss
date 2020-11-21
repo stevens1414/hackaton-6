@@ -105,7 +105,15 @@ articulo
         font-size: $s-3;
         margin: 10px 20px;
     }
-
+    div{
+        .contac{
+            div{
+                h4{
+                    margin: 10px 20px;
+                }
+            }
+        }
+    }
  
 }
 .contac{
@@ -148,4 +156,149 @@ articulo
     }
     
 }
+}
+
+
+/*responsive a 900px */
+@media (max-width: 900px){
+.articulo{
+    width: 95%;
+   
+    
+    }
+    h2{
+        font-size: $s-3;
+    }
+
+
+    }
+
+    .articulo2{
+        width: 100%;
+        .popular2{
+            padding-right: 10px;
+            .element2{
+                
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    .all-article{
+        width: 95%;
+        
+    }
+    .conten__arrow{
+        margin-bottom: 120px;
+    }
+
+.media{
+    display: none;
+}
+
+
+/*responsive a 700px */
+@media(max-width: 700px){
+    .popular{
+        flex-direction: column-reverse;
+        div{
+            img{
+             width: 100%;
+             justify-content: center;
+            margin-bottom: 15px;
+            }
+        }
+       .element{
+           h3{
+              font-size: $s-2; 
+           }
+           p{
+               font-size: $s-3;
+           }
+           
+       }
+    }
+
+    .articulo2{
+        flex-wrap: wrap;
+        width: 100%;
+        
+        .popular2{
+            width: 100%;
+            margin-bottom: 20px;
+            padding-right: 0px;
+        }
+    }
+    
+}
+
+@media(max-width: 600px){
+ 
+    .all-article{
+        
+        .media{
+            p{
+                display: block;
+            color: $color-branding-two;
+            float: right;
+            right: 20px;
+            margin-bottom: 40px;
+            }
+            
+        }
+        .none{
+            display: none;
+        }
+        .info{
+            flex-wrap: wrap;
+            width: 100%;
+            img{
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            div{
+                h3{
+                    margin: 15px 0px;
+
+                }
+                p{
+                    margin: 0px;
+                }
+                .contac{
+                    div{
+                        h4{
+                            margin: 10px 0px;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        }
+
+    
+}
+
+
+@media(max-width: 424px){
+    .popular{
+        .element{
+            h3{
+                font-size: $s-2;
+            }
+            p{
+                font-size: $s-4;
+            }
+        }
+    }
+    .all-article{
+        .none{
+            display: none;
+
+        }
+      
+    }
 }

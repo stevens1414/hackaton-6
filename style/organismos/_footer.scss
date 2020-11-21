@@ -146,3 +146,24 @@ h2{
               font-weight: lighter;
           }
       }
+
+      /*responsive a 900px */
+@media (max-width: 900px){
+    .container{
+        width: 80%;
+        .block{
+            display: block;
+        }
+        .list-footer{
+            flex-wrap: wrap;
+            .list3{
+                width: 100%;
+                
+            }
+            .list1{
+                
+                margin-right: 20px;
+            }
+        }
+    }
+}

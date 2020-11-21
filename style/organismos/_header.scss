@@ -57,7 +57,7 @@ header{
     .blog{
         width:50% ;
         left: 25%;
-        top: 18%;
+        top: 130px;
         position: absolute;
         text-align: center;
         color: white;
@@ -72,3 +72,57 @@ header{
         }
     }
 }
+
+@media (max-width: 900px) {
+    header{
+        .cabecera{
+            width: 90%;
+            font-size: $s-3;
+            padding: 40px 20px ;
+        }
+        .banner{
+            .blog{
+                top: 170px;
+                }
+            }
+        }
+    }
+    @media(max-width: 700px){
+        header{
+            .cabecera{
+                a{
+                    font-size: $s-2;
+                    margin-left:15px ;
+                }
+                
+            }
+        }
+
+        .banner{
+            .blog{
+                width: 70%;
+                left: 12%;
+               
+
+                h1{
+                    font-size: $s-2;
+                }
+                p{
+                    font-size: $s-3;
+                }
+            }
+        }
+    }
+    
+
+    @media(max-width: 424px){
+        header{
+            .cabecera{
+                a{
+                    font-size: $s-3;
+                    margin-left:10px ;
+                }
+                
+            }
+        }
+    }
